@@ -4,6 +4,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
+import 'boostrap/dist/css/boostrap.css'
 import PropTypes from 'prop-types'
 
 const Hello = props => (
