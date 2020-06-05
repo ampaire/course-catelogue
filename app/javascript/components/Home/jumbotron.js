@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components'
 
 const Section = styled.section`
-background-color: #173F5F;
-height : auto;
-padding: 100px 0;
-`
+  background-color: #67032F;
+  height: auto;
+  padding: 40px 0;
+`;
 const Title = styled.h1`
 color: #FFFEE9;
 font-weight: bold;
@@ -13,6 +13,11 @@ line-height: 52px;
 `
 const Description = styled.p`
 color: #FFFEE9;
+`
+const Button = styled.a`
+font-weight: bold;
+padding: 6px;
+text-decoration: none;
 `
 
 const Jumbotron = () => {
@@ -23,10 +28,13 @@ const Jumbotron = () => {
           <div className="col col-sm-12 col-md-5">
             <div className="pt-4 mt-4">
               <Title className="title">Learn React</Title>
-              <Description >
+              <Description>
                 Th Complete React Web Developer Course.2 Hour Course Preview for
                 beginners
-              </Description >
+              </Description>
+              <div className="cta-wrapper">
+                <Button className="btn btn-outline-danger text-white fancy-btn"> Get Started</Button>
+              </div>
             </div>
           </div>
           <div className="col col-sm-12 col-md-7">
