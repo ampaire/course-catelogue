@@ -18,7 +18,7 @@ const Jumbotron = () => {
           <div className="col col-sm-12 col-md-7">
             <div className="mt-4 pt-4 text-center">
               <iframe
-                width="300"
+                width="560"
                 height="215"
                 src="https://www.youtube.com/embed/qI43yX1QeLM"
                 frameBorder="0"
