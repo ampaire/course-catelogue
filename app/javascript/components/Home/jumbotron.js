@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import "bootstrap/dist/css/bootstrap.css";
 
 const Jumbotron = () => {
   return (
@@ -14,7 +15,7 @@ const Jumbotron = () => {
             </div>
           </div>
           <div className="col col-sm-12 col md-7">
-            <div className="mt-4 pt-4 text-center">
+            <div className="mt-4 pt-4 text-right">
               <iframe
                 width="300"
                 height="215"
