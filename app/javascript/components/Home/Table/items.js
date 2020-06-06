@@ -15,7 +15,7 @@ const Items = (props) => {
                 <h4>{props.title}</h4>
                 <p>{props.description}</p>
                 <div className = 'cta-wrapper'>
-                  <a className='btn cta-bt'> Watch Video</a>
+                  <a className='btn cta-btn'> Watch Video</a>
                 </div>
               </div>
             </div>
