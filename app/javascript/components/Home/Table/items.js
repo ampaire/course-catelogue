@@ -1,4 +1,5 @@
 import React, { Component} from 'react'
+import Video from './video'
 
 const Items = (props) => {
   return(
