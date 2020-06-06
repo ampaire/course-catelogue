@@ -8,8 +8,16 @@ const Items = (props) => {
         <div className = 'text-center'>
           <div className = 'card'>
             <div className = 'row'>
-              <div className = 'col-md-4'></div>
-              <div className = 'col-md-8'></div>
+              <div className = 'col-md-4'>
+                <Video />
+              </div>
+              <div className = 'col-md-8'>
+                <h4>{props.title}</h4>
+                <p>{props.description}</p>
+                <div className = 'cta-wrapper'>
+                  <a className='btn cta-bt'> Watch Video</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
