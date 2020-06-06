@@ -2,7 +2,7 @@ import React from 'react'
 
 const Video = (props) =>{
   return(
-    <div>
+    <div className = 'pt-4 pb-4'>
       <iframe
         width="300"
         height="215"
