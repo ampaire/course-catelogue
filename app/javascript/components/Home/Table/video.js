@@ -4,7 +4,7 @@ const Video = (props) =>{
   return(
     <div>
       <iframe
-        width="400"
+        width="300"
         height="215"
         src="https://www.youtube.com/embed/qI43yX1QeLM"
         frameBorder="0"
