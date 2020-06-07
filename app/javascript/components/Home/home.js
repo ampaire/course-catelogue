@@ -15,11 +15,17 @@ class Home extends Component{
       ]
     }
   }
+  toggleVideos = (item, event) => {
+    event.preventDefault()
+    
+    debugger
+  }
+
   render(){
     return(
       <div>
         <Jumbotron />
-        <Table course_modules ={ this.state.course_modules} />
+        <Table toggleVideos={this.toggleVideos.bind(this)} course_modules={this.state.course_modules} />
       </div>
     )
   }
