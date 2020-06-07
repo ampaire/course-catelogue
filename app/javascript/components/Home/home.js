@@ -9,7 +9,7 @@ class Home extends Component{
     this.state = {
       course_modules: [
         {id: 1, title: 'React Full Course', description: 'Intermediate', active: false},
-        {id: 2, title: 'Ruby on rails from Scratch', description: 'Beginner', active: false},
+        {id: 2, title: 'Ruby on rails from Scratch', description: 'Beginner', active: true},
         {id: 3, title: 'Javascript for beginners', description: 'Beginner', active: false},
         {id: 4, title: 'Rails- React course', description: 'Intermediate', active: false}
       ]
