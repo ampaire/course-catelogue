@@ -8,10 +8,11 @@ class Table extends Component {
   }
  render() {
     const item = this.props.course_modules.map((data) =>{
+      let toggleVideos = this.props.toggleVideos.bind(this, item)
       return (
         data.active ?
-        <Selected key={data.id} title={data.title} description={data.description}/> :
-        <Items key={data.id} title = {data.title} description = {data.description} />
+          <Selected toggleVideos = {toggleVideos} key={data.id} title={data.title} description={data.description}/> :
+          <Items toggleVideos = {toggleVideos} key={data.id} title = {data.title} description = {data.description} />
       )
     })
    return (
