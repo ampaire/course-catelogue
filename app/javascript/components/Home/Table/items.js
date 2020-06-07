@@ -1,5 +1,5 @@
 import React, { Component} from 'react'
-import Preview from './preview'
+import Video from './video'
 
 const Items = (props) => {
   return(
@@ -8,7 +8,7 @@ const Items = (props) => {
         <div className = 'card'>
           <div className = 'row'>
             <div className = 'col-md-10 offset-md-1 pl-4'>
-              <Preview />
+              <Video />
               <div className ='pt-4 pb-4 pl-5'>
                 <h4 className ='pl-4'>{props.title}</h4>
                 <p className='pl-4'>{props.description}</p>
