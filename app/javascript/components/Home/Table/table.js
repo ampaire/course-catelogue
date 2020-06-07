@@ -9,7 +9,9 @@ class Table extends Component {
  render() {
     const item = this.props.course_modules.map((data) =>{
       return (
-      <Items key={data.id} title = {data.title} description = {data.description} />
+        data.active ?
+        <Selected key={data.id} title={data.title} description={data.description}/> :
+        <Items key={data.id} title = {data.title} description = {data.description} />
       )
     })
    return (
