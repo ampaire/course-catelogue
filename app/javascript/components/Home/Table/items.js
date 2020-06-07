@@ -7,8 +7,10 @@ const Items = (props) => {
       <div className = 'col-md-10 offset-1 pt-4 pb-4'>
         <div className = 'card'>
           <div className = 'row'>
-            <div className = 'col-md-10 offset-md-1 pl-4'>
+            <div className = 'col-md-4 pl-4'>
               <Video />
+              </div>
+              <div className = 'col-md-8 pl-4'>
               <div className ='pt-4 pb-4 pl-5'>
                 <h4 className ='pl-4'>{props.title}</h4>
                 <p className='pl-4'>{props.description}</p>
